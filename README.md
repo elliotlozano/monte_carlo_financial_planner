@@ -74,7 +74,7 @@ git clone https://github.com/elliotlozano/monte_carlo_financial_planner.git
 The following visuals helped evaluate the union members' portfolios.
 
 ![Portfolio Composition](portfolio_composition.png)
-`The pie chart shows the percent composition of assets within the client's portfolio. This particular client has 51.37% of their portfolio invested in cryptocurrencies (BTC and ETH) and 48.63% invested in stocks and bonds. The total value of the portfolio at the time of analysis was around 150,000 dollars.`
+`The pie chart shows the percent composition of assets within the client's portfolio. This particular client has 51.37% of their portfolio invested in cryptocurrencies (BTC and ETH) and 48.63% invested in stocks and bonds (SPY and AGG). The total value of the portfolio at the time of analysis was around $150,000 including over $76,000 in crypto!`
 
 ![30-Year Monte Carlo Simulation - 60/40](MC_60_40_30years.png)
 `This Monte Carlo simulation generates 500 instances of cumulative returns for the next 30 years. The portfolio is weighted at 60% stocks (SPY) and 40% bonds (AGG). The value of the portfolio is projected to fall between $412,703.59 and $6,807,224.78.`
