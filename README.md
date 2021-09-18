@@ -6,7 +6,7 @@
 
 ## Description
 
-As an analyst at your firm, I am trying to find the best investment strategies for our clients. This program uses the `pandas` library, the `numpy` library, and inline plotting to determine which investment will be considered for inclusion in clients' portfolios. The top investment will be selected based on favorable metrics when analyzing daily returns, cummulative returns, standard deviations, Sharpe ratios, and rolling betas. Each metric will be evaluated independently and then together so I can provide a recommendation for the best risk-reward investment option.
+`In this project, I’ll create two financial analysis tools by using a single Jupyter notebook. In "Part 1" I will create a financial planner for emergencies. The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund. In "Part 2" I will create a financial planner for retirement. This tool will forecast the performance of their retirement portfolio in 30 years. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations.`
 
 ---
 
@@ -31,6 +31,8 @@ Before running the application first install the following dependencies:
 ```python
   pip install pandas
   pip install mkdocs
+  pip install python-dotenv
+  pip install alpaca-trade-api
 ```
 
 ---
