@@ -6,7 +6,7 @@
 
 ## Description
 
-`In this project, I’ll create two financial analysis tools by using a single Jupyter notebook. In "Part 1" I will create a financial planner for emergencies. The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund. In "Part 2" I will create a financial planner for retirement. This tool will forecast the performance of their retirement portfolio in 30 years. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations.`
+In this project, I’ll create two financial analysis tools by using a single Jupyter notebook. In "Part 1" I will create a financial planner for emergencies. The members will be able to use this tool to visualize their current savings. The members can then determine if they have enough reserves for an emergency fund. In "Part 2" I will create a financial planner for retirement. This tool will forecast the performance of their retirement portfolio in 30 years. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations.
 
 ---
 
@@ -52,13 +52,13 @@ Before running the application first install the following dependencies:
 
 To use the Portfolio Optimizer:
 
-1. Locally clone the portfolio_optimizer repository from GitHub using the following link:
+1. Locally clone the monte_carlo_financial_planner repository from GitHub using the following link:
 
 ```python
-git clone https://github.com/elliotlozano/portfolio_optimizer.git
+git clone https://github.com/elliotlozano/monte_carlo_financial_planner.git
 ```
 
-2. Run the [portfolio optimizer](risk_return_analysis.ipynb) program.
+2. Run the [Monte Carlo Financial Planner](financial_planning_tools.ipynb) program.
 
 3. Examine the graphs and review the commentary describing the significance of the results.
 
