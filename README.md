@@ -16,11 +16,21 @@ This project leverages python 3.7 with the following packages:
 
 * [pandas](https://github.com/pandas-dev/pandas) - For reading data into a DataFrame.
 
-* [pathlib](https://docs.python.org/3/library/pathlib.html) - For generating a file path to a CSV.
-
-* [numpy](https://github.com/numpy/numpy) - For scientific computing in Python.
-
 * [matplotlib](https://matplotlib.org/stable/users/index.html) - For embedding plots in the application.
+
+* [os](https://docs.python.org/3/library/os.html)
+
+* [datetime](https://docs.python.org/3/library/datetime.html)
+
+* [json](https://docs.python.org/3/library/json.html)
+
+* [requests](https://docs.python-requests.org/en/master/index.html)
+
+* [dotenv](https://pypi.org/project/python-dotenv/)
+
+* [alpaca_trade_api](https://alpaca.markets/docs/api-documentation/)
+
+* [pytz](https://pypi.org/project/pytz/)
 
 ---
 
@@ -31,6 +41,7 @@ Before running the application first install the following dependencies:
 ```python
   pip install pandas
   pip install mkdocs
+  pip install requests
   pip install python-dotenv
   pip install alpaca-trade-api
 ```
