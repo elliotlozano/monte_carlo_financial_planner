@@ -18,6 +18,8 @@ This project leverages python 3.7 with the following packages:
 
 * [matplotlib](https://matplotlib.org/stable/users/index.html) - For embedding plots in the application.
 
+* [numpy](https://github.com/numpy/numpy) - For scientific computing in Python.
+
 * [os](https://docs.python.org/3/library/os.html) - For providing a portable way of using operating system dependent functionality.
 
 * [datetime](https://docs.python.org/3/library/datetime.html) - For supplying classes for manipulating dates and times.
@@ -41,6 +43,7 @@ Before running the application first install the following dependencies:
 ```python
   pip install pandas
   pip install mkdocs
+  pip install numpy
   pip install requests
   pip install python-dotenv
   pip install alpaca-trade-api
@@ -71,13 +74,13 @@ git clone https://github.com/elliotlozano/monte_carlo_financial_planner.git
 The following visuals helped evaluate the union members' portfolios.
 
 ![Portfolio Composition](portfolio_composition.png)
-`The pie chart shows the percent composition of assets within the client's portfolio. This particular client has 51.37% of their portfolio invested in cryptocurrencies (BTC and ETH) and 48.63% invested in stocks and bonds. The total value of the portfolio at the time of analysis was around $150,000`
+`The pie chart shows the percent composition of assets within the client's portfolio. This particular client has 51.37% of their portfolio invested in cryptocurrencies (BTC and ETH) and 48.63% invested in stocks and bonds. The total value of the portfolio at the time of analysis was around 150,000 dollars.`
 
 ![30-Year Monte Carlo Simulation - 60/40](MC_60_40_30years.png)
-`This graph is a good analysis of risk due to volatility. The box plots show the spread of daily returns for each asset. Berkshire Hathaway Inc. shows the largest spread meaning that it experienced the most volatility over the period, and therefore higher risk. Tiger Global Management LLC had the tightest spread, meaning the fund experienced the least amount of volatility in daily returns.`
+`This Monte Carlo simulation generates 500 instances of cumulative returns for the next 30 years. The portfolio is weighted at 60% stocks (SPY) and 40% bonds (AGG). The value of the portfolio is projected to fall between $412,703.59 and $6,807,224.78.`
 
 ![10-Year Monte Carlo Simulation - 80/20](MC_80_20_10years.png)
-`This bar graph depicts the Sharpe ratio for each asset - a metric used to evaluate an investment's risk-reward profile. It shows only three of the five assets have a strong enough ratio to be considered a worthwhile investment. We can eliminate the funds with negative Sharpe ratios and focus on Berkshire Hathaway Inc., Tiger Global Management LLC, and the S&P 500.`
+`This Monte Carlo simulation generates 500 instances of cumulative returns for the next 10 years. The portfolio is weighted at 80% stocks (SPY) and 20% bonds (AGG). The value of the portfolio is projected to fall between $96,041.00 and $751,740.29.`
 
 ---
 
