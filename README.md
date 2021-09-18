@@ -58,27 +58,26 @@ To use the Portfolio Optimizer:
 git clone https://github.com/elliotlozano/monte_carlo_financial_planner.git
 ```
 
-2. Run the [Monte Carlo Financial Planner](financial_planning_tools.ipynb) program.
+2. Create an environment (.env) file with your ALPACA_API_KEY and ALPACA_SECRET_KEY in the same folder as financial_planning_tools.ipynb.
 
-3. Examine the graphs and review the commentary describing the significance of the results.
+3. Run the [Monte Carlo Financial Planner](financial_planning_tools.ipynb) program.
+
+4. Examine the graphs and review the commentary describing the significance of the results.
 
 ---
 
 ## Findings
 
-The following visuals helped identify the best investment option for our clients' portfolios.
+The following visuals helped evaluate the union members' portfolios.
 
-![Cummulative Returns All Assets](cummulative_returns.png)
-`This graph shows the cummulative return for each asset. It's clear the market gives the highest return when compared to the four whale funds. Paulson & Co. Inc. performed the worst over the period.`
+![Portfolio Composition](portfolio_composition.png)
+`The pie chart shows the percent composition of assets within the client's portfolio. This particular client has 51.37% of their portfolio invested in cryptocurrencies (BTC and ETH) and 48.63% invested in stocks and bonds. The total value of the portfolio at the time of analysis was around $150,000`
 
-![Daily Returns Boxplot for Whale Funds](whale_daily_returns_boxplot.png)
+![30-Year Monte Carlo Simulation - 60/40](MC_60_40_30years.png)
 `This graph is a good analysis of risk due to volatility. The box plots show the spread of daily returns for each asset. Berkshire Hathaway Inc. shows the largest spread meaning that it experienced the most volatility over the period, and therefore higher risk. Tiger Global Management LLC had the tightest spread, meaning the fund experienced the least amount of volatility in daily returns.`
 
-![Sharpe Ratios All Assets](Sharpe_ratios.png)
+![10-Year Monte Carlo Simulation - 80/20](MC_80_20_10years.png)
 `This bar graph depicts the Sharpe ratio for each asset - a metric used to evaluate an investment's risk-reward profile. It shows only three of the five assets have a strong enough ratio to be considered a worthwhile investment. We can eliminate the funds with negative Sharpe ratios and focus on Berkshire Hathaway Inc., Tiger Global Management LLC, and the S&P 500.`
-
-![Rolling Beta for Two Whale Funds](rolling_beta_overlay.png)
-`For a more conservative portfolio we will consider only Berkshire Hathaway Inc. and Tiger Global Management LLC since the S&P 500 showed greater volatility risk. Between the top two whale funds, Berkshire Hathaway Inc. acheived a higher rolling beta (0.22 vs. 0.03), meaning it was more sensitive to movements in the market. Since both funds scored relatively low beta values (well under 1.0), neither are considered risky compared to the S&P 500 so a higher beta may actually be considered more attractive in this case. Berkshire Hathaway Inc. seems to be the best option for our clients' portfolios.`
 
 ---
 
